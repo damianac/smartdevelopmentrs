@@ -257,6 +257,9 @@ header .navbar {
 .background-header .navbar-brand h2 {
 	color: #a4c639!important;
 }
+.background-header .navbar-brand img {
+	display: none;
+}
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
 }
@@ -387,7 +390,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/image.png);
 }
 
 .Modern-Slider .item-2 .img-fill {
@@ -586,13 +589,11 @@ ul.slick-dots {
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 140px 0px;
-	color: #fff;
 }
 
 .fun-facts span {
 	text-transform: uppercase;
 	font-size: 15px;
-	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 	display: block;
@@ -610,7 +611,6 @@ ul.slick-dots {
 }
 
 .fun-facts p {
-	color: #fff;
 	margin-bottom: 40px;
 }
 
@@ -646,8 +646,13 @@ ul.slick-dots {
 	margin-top: 140px;
 }
 
+.left-image {
+	height: 100%;
+}
+
 .more-info .left-image img {
 	width: 100%;
+	height: 100%;
 	overflow: hidden;
 }
 
