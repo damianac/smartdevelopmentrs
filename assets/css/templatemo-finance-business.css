@@ -1141,7 +1141,7 @@ footer .contact-form button.filled-button:hover {
   margin-bottom: 0px;
 }
 #tabs ul li a {
-	text-transform: capitalize;
+	text-transform: inherit;
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
@@ -1228,7 +1228,10 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
-
+.white-logo-footer {
+	display: block;
+	margin: auto;
+}
 
 
 /* Responsive Style */
