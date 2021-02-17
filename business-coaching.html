@@ -52,6 +52,8 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-4">
             <ul class="right-icons">
               <li><a href="https://www.linkedin.com/company/smartdevelopment-rs" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#" onclick="setLanguageSr()"><b> SR </b></a></li>
+              <li><a href="#" onclick="setLanguageEn()"><b> EN </b></a></li>
             </ul>
           </div>
         </div>
@@ -75,10 +77,14 @@ https://templatemo.com/tm-545-finance-business
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">O nama</a>
+                  <a id= "about-us" class="nav-link" href="about.html">O nama</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Kontakt</a>
+                  <a id="contact" class="nav-link" href="contact.html">Kontakt</a>
+                </li>
+                <li class="nav-item lang-wrapper">
+                    <a class="nav-link lang-icon" href="#" onclick="setLanguageSr()"> SR </a>
+                    <a class="nav-link lang-icon" href="#" onclick="setLanguageEn()"> EN </a>
                 </li>
               </ul>
             </div>
@@ -91,8 +97,8 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Usluge koje nudimo</h1>
-            <span>Imamo preko 20 godina iskustva </span>
+            <h1 id="services-h">Usluge koje nudimo</h1>
+            <span id="over-sub">Imamo preko 20 godina iskustva </span>
           </div>
         </div>
       </div>
@@ -103,17 +109,17 @@ https://templatemo.com/tm-545-finance-business
         <div class="row" id="tabs">
           <div class="col-md-4">
             <ul>
-              <li><a href='#tabs-1'>INDIVIDUALNI BUSINESS COACHING<i class="fa fa-angle-right"></i></a></li>
-              <li><a href='#tabs-2'>TALENT DEVELOPMENT<i class="fa fa-angle-right"></i></a></li>
-              <li><a href='#tabs-3'>IZVRŠNI BUSINESS COACHING <i class="fa fa-angle-right"></i></a></li>
+              <li><a id="tab1-a" href='#tabs-1'>INDIVIDUALNI BUSINESS COACHING<i class="fa fa-angle-right"></i></a></li>
+              <li><a id="tab2-a" href='#tabs-2'>TALENT DEVELOPMENT<i class="fa fa-angle-right"></i></a></li>
+              <li><a id="tab3-a" href='#tabs-3'>IZVRŠNI BUSINESS COACHING <i class="fa fa-angle-right"></i></a></li>
             </ul>
           </div>
           <div class="col-md-8">
             <section class='tabs-content'>
               <article id='tabs-1'>
                 <img src="assets/images/single_service_01.jpg" alt="">
-                <h4>Individualni poslovni koučing / Individual Business Coaching</h4>
-                <p>
+                <h4 id="tab1-h">Individualni poslovni koučing / Individual Business Coaching</h4>
+                <p id="tab1">
                     Poslovni kouč pomaže klijentu da promeni svoj model ponašanja, ukoliko je to potrebno, i da na taj
                     način poboljša svoj Performans. Kouč će pomoći klijentu da postavi SMART ciljeve koji su mu
                     zaista važni; da kreira listu akcionih koraka koji ga mogu dovesti do toga cilja i da ga motiviše da te
@@ -122,9 +128,9 @@ https://templatemo.com/tm-545-finance-business
               </article>
               <article id='tabs-2'>
                 <img src="assets/images/bulletin-board-2767856_1280.jpg" alt="">
-                <h4>Individualni poslovni koučing i trening za razvijanje
+                <h4 id="tab2-h">Individualni poslovni koučing i trening za razvijanje
                         talenata – Talent Development Coaching and Training</h4>
-                <p>
+                <p id="tab2">
                     Prepoznali ste potencijal u nekim svojim ljudima? Želite da ih pripremite za menadžersku ili lidersku
                     poziciju? Voleli bi da neko intenzivno radi sa njima na veštinama koje su potrebne svakom
                     menadžeru i lideru? U ovom individualnom programu usavršavamo Vaše talente iz oblasti: Lideršipa,
@@ -134,8 +140,8 @@ https://templatemo.com/tm-545-finance-business
               </article>
               <article id='tabs-3'>
                 <img src="assets/images/single_service_03.jpg" alt="">
-                <h4>Izvršni poslovni koučing – Executive Business Coaching</h4>
-                <p>
+                <h4 id="tab3-h">Izvršni poslovni koučing – Executive Business Coaching</h4>
+                <p id="tab3">
                     „Sam na vrhu” je često viđen model upravljanja firmom. Efikasan poslovni kouč je pažljiv slušalac i
                     poželjan sagovornik lideru koji se često oseća usamljeno kada treba da donese važne odluke. Kouč
                     zna i koristi pitanja koja vode lidera kroz moguće scenarije kako bi on mogao da vidi i oseti
@@ -154,8 +160,8 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Zahtev za <em>poziv</em></h2>
-              <span>Budite slobodni da nas kontaktirate.</span>
+              <h2 id="call-req-h">Zahtev za <em>poziv</em></h2>
+              <span id="call-req-sub">Budite slobodni da nas kontaktirate.</span>
             </div>
           </div>
           <div class="col-md-12">
@@ -270,6 +276,8 @@ https://templatemo.com/tm-545-finance-business
       <script src="assets/js/owl.js"></script>
       <script src="assets/js/slick.js"></script>
       <script src="assets/js/accordions.js"></script>
+      <script src="assets/js/localization/business-coaching.js"></script>
+      <script src="assets/js/localization/localization.js"></script>
   
       <script language = "text/Javascript"> 
         cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field

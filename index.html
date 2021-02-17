@@ -50,6 +50,8 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-4">
             <ul class="right-icons">
               <li><a href="https://www.linkedin.com/company/smartdevelopment-rs" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#" onclick="setLanguageSr()"><b> SR </b></a></li>
+              <li><a href="#" onclick="setLanguageEn()"><b> EN </b></a></li>
             </ul>
           </div>
         </div>
@@ -73,10 +75,14 @@ https://templatemo.com/tm-545-finance-business
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">O nama</a>
+                <a id= "about-us" class="nav-link" href="about.html">O nama</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Kontakt</a>
+                <a id="contact" class="nav-link" href="contact.html">Kontakt</a>
+              </li>
+              <li class="nav-item lang-wrapper">
+                  <a class="nav-link lang-icon" href="#" onclick="setLanguageSr()"> SR </a>
+                  <a class="nav-link lang-icon" href="#" onclick="setLanguageEn()"> EN </a>
               </li>
             </ul>
           </div>
@@ -127,11 +133,11 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h4>Zahtev za celokupno ponudu</h4>
-            <span>možete nam pisati putem mail-a, ili se direktno obratiti preko telefona</span>
+            <h4 id="request-h">Zahtev za celokupno ponudu</h4>
+            <span id="request-sub">možete nam pisati putem mail-a, ili se direktno obratiti preko telefona</span>
           </div>
           <div class="col-md-4">
-            <a href="contact.html" class="border-button">KONTAKT</a>
+            <a id="contact-upper" href="contact.html" class="border-button">KONTAKT</a>
           </div>
         </div>
       </div>
@@ -142,8 +148,8 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Usluge <em>koje nudimo</em></h2>
-              <span>
+              <h2 id="services-h">Usluge <em>koje nudimo</em></h2>
+              <span id="services-sub" >
                 Mi pružamo "in-house" usluge poslovnih treninga, koučinga i tim bildinga.
               </span>
             </div>
@@ -152,8 +158,8 @@ https://templatemo.com/tm-545-finance-business
             <div class="service-item">
               <img src="assets/images/service_02.jpg" alt="">
               <div class="down-content">
-                <h4>Poslovni treninzi</h4>
-                <p>
+                <h4 id="business-training-h">Poslovni treninzi</h4>
+                <p id="business-training-sub">
                     Usavršite ljude kojima poveravate posao kroz
                     poslovne treninge. Vaš uspeh zavisi od njih!
                 </p>
@@ -167,7 +173,7 @@ https://templatemo.com/tm-545-finance-business
               <img src="assets/images/service_03.jpg" alt="">
               <div class="down-content">
                 <h4>Business Coaching</h4>
-                <p>
+                <p id="business-coaching-sub">
                     Poslovni kouč će motivisati i pokrenuti svog
                     klijenta da izađe iz komforne zone i
                     preduzme akcione korake koji će ga voditi
@@ -182,7 +188,7 @@ https://templatemo.com/tm-545-finance-business
               <img src="assets/images/sm 376.jpg" alt="">
               <div class="down-content">
                 <h4>Team Building</h4>
-                <p>
+                <p id="team-building-sub">
                     Uočite važnost kvalitetnog timskog rada u
                     cilju postizanja najboljih rezultata,
                     sveobuhvatne harmonije i funkcionalnosti
@@ -208,9 +214,9 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-content">
-                    <span>Ko smo mi</span>
-                    <h2>Upoznajte <em>naš tim</em></h2>
-                    <p>
+                    <span id="our-team-who">Ko smo mi</span>
+                    <h2 id="our-team-h">Upoznajte <em>naš tim</em></h2>
+                    <p id="our-team-sub">
                       Naši ljudi su više od 20 godina uspešno radili u privredi. Pritom smo se kontinuirano
                       usavršavali na poljima na kojima radimo. Sada želimo da stečeno znanje prenesemo
                       ambicioznim ljudima u privredi.
@@ -230,8 +236,8 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Zahtev za <em>poziv</em></h2>
-              <span>Da li želite da vas kontaktiramo?</span>
+              <h2 id="call-req-h">Zahtev za <em>poziv</em></h2>
+              <span id="call-req-sub">Da li želite da vas kontaktiramo?</span>
             </div>
           </div>
           <div class="col-md-12">
@@ -355,6 +361,8 @@ https://templatemo.com/tm-545-finance-business
     <script src="assets/js/owl.js"></script>
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/localization/index.js"></script>
+    <script src="assets/js/localization/localization.js"></script>
 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field

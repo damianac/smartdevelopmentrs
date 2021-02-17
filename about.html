@@ -52,6 +52,8 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-4">
             <ul class="right-icons">
               <li><a href="https://www.linkedin.com/company/smartdevelopment-rs" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#" onclick="setLanguageSr()"><b> SR </b></a></li>
+              <li><a href="#" onclick="setLanguageEn()"><b> EN </b></a></li>
             </ul>
           </div>
         </div>
@@ -75,10 +77,14 @@ https://templatemo.com/tm-545-finance-business
                   </a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="about.html">O nama</a>
+                  <a id='about-us' class="nav-link" href="about.html">O nama</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Kontakt</a>
+                  <a id='contact' class="nav-link" href="contact.html">Kontakt</a>
+                </li>
+                <li class="nav-item lang-wrapper">
+                    <a class="nav-link lang-icon" href="#" onclick="setLanguageSr()"> SR </a>
+                    <a class="nav-link lang-icon" href="#" onclick="setLanguageEn()"> EN </a>
                 </li>
               </ul>
             </div>
@@ -91,8 +97,8 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>O nama</h1>
-            <span>Mi imamo preko 20 godina iskustva</span>
+            <h1 id="about-us-h1">O nama</h1>
+            <span id="about-us-sub">Mi imamo preko 20 godina iskustva</span>
           </div>
         </div>
       </div>
@@ -106,8 +112,8 @@ https://templatemo.com/tm-545-finance-business
               <div class="row">
                 <div class="col-md-6 align-self-center">
                   <div class="right-content">
-                    <h2>Saznajte više o <em>nama</em></h2>
-                    <p>Na našim programima možete kroz zanimljive radionice, prezentacije, vezbe, roll-play situacije naučiti nove tehnike i taktike, osvežiti zaboravljena znanja i uvežbati metode koje ćete moći da primenite u svakodnevnom radu.
+                    <h2 id='about-us-h'>Saznajte više o <em>nama</em></h2>
+                    <p id='about-us-txt'>Na našim programima možete kroz zanimljive radionice, prezentacije, vezbe, roll-play situacije naučiti nove tehnike i taktike, osvežiti zaboravljena znanja i uvežbati metode koje ćete moći da primenite u svakodnevnom radu.
                       <br>
                       <br> Naš cilj je da kod Vas i Vaših saradnika podstaknemo spremnost i spretnost za posao koji obavljate, da probudimo ideje, borbenost, kreativnost, motivisanost i akciju koja treba da Vas vodi ka novim uspesima.
                       <br>
@@ -130,8 +136,8 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Naš <em>tim</em></h2>
-              <span>Imamo preko 20 godina iskustva</span>
+              <h2 id="our-team">Naš <em>tim</em></h2>
+              <span id="our-team-sub">Imamo preko 20 godina iskustva</span>
             </div>
           </div>
           <div class="col-md-4">
@@ -140,7 +146,7 @@ https://templatemo.com/tm-545-finance-business
                   <div class="down-content">
                     <h4>Dr Šumadinka Mihajlović</h4>
                     <span>Business Trainer, Facilitator and Coach</span>
-                    <p>
+                    <p id="sumadinka-mihajlovic">
                         Sa više od 20 godina rada u privredi, najvećim delom u prodaji, u domaćim i poznatoj stranoj multinacionalnoj kompaniji stekla bogato iskustvo i  znanje iz oblasti prodaje. Tokom rada se neprekidno profesionalno usavršavala iz oblasti menadžmenta, leadershipa, ekonomije i agroekonomije. Doktorirala na Poljoprivrednom fakultetu Univerziteta u Novom Sadu na departmanu Agroekonomskih nauka.    
                     </p>
                   </div>
@@ -152,7 +158,7 @@ https://templatemo.com/tm-545-finance-business
               <div class="down-content">
                 <h4>Prof. Dr Nebojša Novković</h4>
                 <span>Leadership Consultant</span>
-                <p>
+                <p id="nebojsa-novkovic">
                     Redovan profesor menadžmenta na Poljoprivrednom fakultetu u Novom Sadu i profesor na Vojnoj akademiji u Beogradu. Autor više od 300 naučnih i stručnih radova i 9 udzbenika iz oblasti menadžmenta i lideršipa. Usavršavao se na stručnim specijalizacijama u Švedskoj, Holandiji, Kini i Japanu. Član srpske, evropske i svetske asocijacije agrarnih ekonomista.
                 </p>
               </div>
@@ -164,7 +170,7 @@ https://templatemo.com/tm-545-finance-business
                 <div class="down-content">
                   <h4>Dragan Santovac</h4>
                   <span>Business Trainer – Leadership and Finance</span>
-                  <p>
+                  <p id="dragan-stanovic">
                       Svoje bogato profesionalno iskustvo u sferi bankarstva gradi više od 30 godina, pre svega u oblastima korporativnog bankarstva, kreiranja, monitoringa i restrukturiranja kreditnog portfolija, te upravljanju poslovima trezora, informacionim tehnologijama, digitalnom bankarstvu, platnom prometu i korporativnom upravljanju. U toku svoje karijere, 20 godina je bio deo najvišeg menadžmenta u nekim od najvećih banaka u Srbiji. 
                   </p>
                 </div>
@@ -176,7 +182,7 @@ https://templatemo.com/tm-545-finance-business
               <div class="down-content">
                 <h4>Milana Vrgović Ćosić M.A.</h4>
                 <span>Business English Instructor</span>
-                <p>
+                <p id="milan-vrgovic">
                     Diplomirani filolog opšte lingvistike sa gotovo 15 godina iskustva u držanju kurseva engleskog i
                     norveškog jezika. Odbranila Master rad iz oblasti Ljudskih resursa na temu treninga i razvoja,
                     preciznije – iz specifičnosti kurseva engleskog jezika u funkciji profesionalnog razvoja. Godinu dana
@@ -191,7 +197,7 @@ https://templatemo.com/tm-545-finance-business
                 <div class="down-content">
                   <h4>Jasna Janković M.Sc.</h4>
                   <span>Team Building Trainer</span>
-                  <p>
+                  <p id="jasna-jankovic">
                   Po zanimanju master inženjer prehrambene tehnologije i HACCP administrator sa
                   višegodisnjim iskustvom u poslovanju u firmi koja se bavi konsaltingom i trgovinom, 
                   a po zaljubljenosti, kako voli da kaže, sportski operativni trener fitnesa i team building-a.  
@@ -278,6 +284,8 @@ https://templatemo.com/tm-545-finance-business
       <script src="assets/js/owl.js"></script>
       <script src="assets/js/slick.js"></script>
       <script src="assets/js/accordions.js"></script>
+      <script src="assets/js/localization/about.js"></script>
+      <script src="assets/js/localization/localization.js"></script>
   
       <script language = "text/Javascript"> 
         cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
@@ -289,6 +297,6 @@ https://templatemo.com/tm-545-finance-business
             }
         }
       </script>
-  
+      
     </body>
   </html>
