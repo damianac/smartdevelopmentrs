@@ -184,3 +184,24 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+/* ====================================================================================================================
+ * CUSTOM
+ * ====================================================================================================================*/
+.lang-wrapper {
+  display:none;
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: row;
+} 
+
+.lang-icon {
+  margin:2px;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .lang-wrapper {
+    display:flex;
+  } 
+}
+

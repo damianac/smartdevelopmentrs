@@ -75,10 +75,14 @@ https://templatemo.com/tm-545-finance-business
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">O nama</a>
+                  <a id= "about-us" class="nav-link" href="about.html">O nama</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Kontakt</a>
+                  <a id="contact" class="nav-link" href="contact.html">Kontakt</a>
+                </li>
+                <li class="nav-item lang-wrapper">
+                    <a class="nav-link lang-icon" href="#" onclick="setLanguageSr()"> SR </a>
+                    <a class="nav-link lang-icon" href="#" onclick="setLanguageEn()"> EN </a>
                 </li>
               </ul>
             </div>
@@ -91,8 +95,8 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Usluge koje nudimo</h1>
-            <span>Imamo preko 20 godina iskustva </span>
+            <h1 id ="services-h">Usluge koje nudimo</h1>
+            <span id="over-sub">Imamo preko 20 godina iskustva </span>
           </div>
         </div>
       </div>
@@ -115,8 +119,8 @@ https://templatemo.com/tm-545-finance-business
             <section class='tabs-content'>
               <article id='tabs-1'>
                 <img src="assets/images/business-15498_1920.jpg" alt="">
-                <h4>Poslovni treninzi za prodajni tim / Sales Skills</h4>
-                <p>Slika Vaše firme može biti ulepšana ili naružena u zavisnosti od sposobnosti i motivisanosti ljudi koji
+                <h4 id="tab1-h">Poslovni treninzi za prodajni tim / Sales Skills</h4>
+                <p id="tab1">Slika Vaše firme može biti ulepšana ili naružena u zavisnosti od sposobnosti i motivisanosti ljudi koji
                         Vas predstavljaju na tržištu. 
                         <br>
                         <br>
@@ -129,8 +133,8 @@ https://templatemo.com/tm-545-finance-business
               </article>
               <article id='tabs-2'>
                 <img src="assets/images/success-2081168_1280.jpg" alt="">
-                <h4>Poslovni treninzi za Lideršip tim / Leadership</h4>
-                <p>
+                <h4 id="tab2-h">Poslovni treninzi za Lideršip tim / Leadership</h4>
+                <p id="tab2">
                         Snaga dobrog lidera je u tome da prepozna i razume glavne faktore motivacije kod svojih saradnika,
                         a zatim da ih selektivno primeni kako bi postgli maksimum. Kako upravljati timom, motivisati ljude,
                         komunicirati sa saradnicima, delegirati poslove? Zašto je bitno da se bavimo Performansom naših
@@ -143,8 +147,8 @@ https://templatemo.com/tm-545-finance-business
               </article>
               <article id='tabs-3'>
                 <img src="assets/images/calculator-385506_1280.jpg" alt="">
-                <h4>Poslovni treninzi iz oblasti finansija / Finance</h4>
-                <p>
+                <h4 id="tab3-h">Poslovni treninzi iz oblasti finansija / Finance</h4>
+                <p id="tab3">
                         Finansijska pismenost kao „sine qua non” u poslovnom i životnom okruženju. Analiza,
                         interpretacija i razumevanje sadržaja finansijskih izveštaja sa posebnim akcentom na prepoznavanju
                         kvaliteta poslovanja, potrebama i mogućnostima unapređenja. Modul će obezbediti odgovore i
@@ -153,8 +157,8 @@ https://templatemo.com/tm-545-finance-business
               </article>
               <article id='tabs-4'>
                 <img src="assets/images/meeting-2284501_1280.jpg" alt="">
-                <h4>Poslovni engleski / Business English</h4>
-                <p>
+                <h4 id="tab4-h">Poslovni engleski / Business English</h4>
+                <p id="tab4">
                     Savremeno poslovanje sve više od nas zahteva poznavanje engleskog jezika. Retki su oni koji se u
                     poslovnom svetu penju lestvicom uspeha, a da pritom ne govore engleski jezik, bar na srednjem
                     nivou. Ipak, da li je to dovoljno? Svakako želite da Vaši izveštaji, mejlovi, ponude, narudžbe, budu
@@ -163,8 +167,8 @@ https://templatemo.com/tm-545-finance-business
               </article>
               <article id='tabs-5'>
                     <img src="assets/images/people-690810_1920.jpg" alt="">
-                    <h4>Poslovne veštine / Soft Skills</h4>
-                    <p>
+                    <h4 id="tab5-h">Poslovne veštine / Soft Skills</h4>
+                    <p id="tab5">
                             Kako da na efikasan način komuniciramo sa svojim klijentima, koji stil komuniciranja da
                             praktikujemo, da li je asertivna komunikacija precenjena, zašto je važno da aktivno slušamo, umeće
                             izlaganja i javni nastup, dobra organizacija iznošenja ideja, kako da govornik postane dovoljno
@@ -183,8 +187,8 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Zahtev za <em>poziv</em></h2>
-              <span>Budite slobodni da nas kontaktirate.</span>
+              <h2 id="call-req-h">Zahtev za <em>poziv</em></h2>
+              <span id="call-req-sub">Budite slobodni da nas kontaktirate.</span>
             </div>
           </div>
           <div class="col-md-12">
@@ -250,6 +254,8 @@ https://templatemo.com/tm-545-finance-business
               </p>
               <ul class="social-icons">
                 <li><a href="https://www.linkedin.com/company/smartdevelopment-rs" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#" onclick="setLanguageSr()"><b> SR </b></a></li>
+                <li><a href="#" onclick="setLanguageEn()"><b> EN </b></a></li>
               </ul>
             </div>
            
@@ -311,6 +317,8 @@ https://templatemo.com/tm-545-finance-business
       <script src="assets/js/owl.js"></script>
       <script src="assets/js/slick.js"></script>
       <script src="assets/js/accordions.js"></script>
+      <script src="assets/js/localization/poslovni-treninzi.js"></script>
+      <script src="assets/js/localization/localization.js"></script>
   
       <script language = "text/Javascript"> 
         cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
