@@ -63,7 +63,7 @@ var localization = [
     id: 'about-us-txt',
     element: 'p',
     sr: 'Na našim programima možete kroz zanimljive radionice, prezentacije, vezbe, roll-play situacije naučiti nove tehnike i taktike, osvežiti zaboravljena znanja i uvežbati metode koje ćete moći da primenite u svakodnevnom radu.<br><br> Naš cilj je da kod Vas i Vaših saradnika podstaknemo spremnost i spretnost za posao koji obavljate, da probudimo ideje, borbenost, kreativnost, motivisanost i akciju koja treba da Vas vodi ka novim uspesima.<br>',
-    en: 'In our programs you can learn new techniques and tactics through interesting workshops, presentations, exercises, case studies and roll-plays. We will provide you with practice methods that one will be able to apply in day-to-day business.<br><br>  Our goal is to encourage you and  your representatives and to prepare you with the neccessary skills; to awake your ambitions, ideas, creativity, motivation and to provoke action which will lead you and your business to success.<br>'
+    en: 'In our programs you can learn new techniques and tactics through interesting workshops, presentations, exercises, case studies and roll-plays. We will provide you with the practiceal methods that one will be able to apply in day-to-day business.<br><br>  Our goal is to encourage you and  your representatives to acquire the neccessary skills; to awake ambitions, ideas, creativity, motivation and to provoke action which will lead you and your business to success.<br>'
   },
   {
     id: 'our-team',
