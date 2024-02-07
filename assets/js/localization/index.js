@@ -95,4 +95,34 @@ var localization = [
     sr: 'Da li želite da vas kontaktiramo?',
     en: 'Do you want us to contact you?'
   },
+  {
+    id: 'coffee-table-business-book-txt',
+    element: 'span',
+    sr: 'KNJIGA NAMENJENA LIDERIMA NOVE GENERACIJE',
+    en: 'FOR LEADERS OF THE NEW GENERATION'
+  },
+  {
+    id: 'book-order-button',
+    element: 'a',
+    sr: 'Naručite svoj primerak ovde',
+    en: 'Order your copy here'
+  },
+  {
+    id: 'request-h-2',
+    element: 'h4',
+    sr: 'Zahtev za celokupnu ponudu',
+    en: 'Request for the entire offer'
+  },
+  {
+    id: 'request-sub-2',
+    element: 'span',
+    sr: 'možete nam pisati putem mail-a, ili se direktno obratiti preko telefona',
+    en: 'you can write to us by e-mail, or contact us directly by phone'
+  },
+  {
+    id: 'contact-upper-2',
+    element: 'a',
+    sr: 'KONTAKT',
+    en: 'CONTACT'
+  },
 ]

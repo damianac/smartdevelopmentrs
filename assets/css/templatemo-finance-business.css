@@ -6,6 +6,10 @@ https://templatemo.com/tm-545-finance-business
 
 */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -399,6 +403,10 @@ header .navbar {
 
 .Modern-Slider .item-3 .img-fill {
 	background-image: url(../images/slide_03.jpg);
+}
+
+.Modern-Slider .item-4 .img-fill {
+	background-image: url(../images/coffee-table-business-book-dark.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -1083,6 +1091,10 @@ footer .contact-form button.filled-button:hover {
 	display: block;
 }
 
+.page-heading.coffee-table-business-book-header {
+	background-image: url(../images/coffee-table-business-book-dark.jpg);
+	background-position: top center;
+}
 
 /* team */
 
@@ -1235,7 +1247,106 @@ footer .contact-form button.filled-button:hover {
 }
 
 
+/* Coffee Table Business Book */
+
+.coffee-table-business-book {
+	background-color: #f7f7f7;
+	margin-top: unset;
+	padding: 50px 0px;
+}
+
+.coffee-table-business-book .coffee-table-business-book-advices {
+	margin-top: 50px;
+}
+
+.coffee-table-business-book .coffee-table-business-book-info {
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.callback-form.callback-coffee-table-business-book {
+	margin-top: 80px;
+	margin-bottom: 120px;
+}
+
+.callback-coffee-table-business-book #book-price {
+	font-weight: 600;
+	font-size: 26px;
+	text-transform: none;
+}
+
+.callback-coffee-table-business-book #book-price a {
+	color: #666;
+}
+
+.callback-coffee-table-business-book .coffee-table-business-book-image {
+	width: 100%;
+	max-width: 430px;
+	margin-top: 15px;
+}
+
+.callback-coffee-table-business-book .coffee-table-business-book-form {
+	padding: 80px 50px;
+}
+
+.coffee-table-business-book-section-bg {
+	background-image: url(../images/coffee-table-business-book-dark-bg.jpg);
+	margin-top: 0px;
+}
+
+
 /* Responsive Style */
+@media (max-width: 992px) {
+	.contact-information .contact-item a {
+		font-size: 12px;
+	}
+	.navbar .navbar-brand {
+		position: absolute;
+		left: 30px;
+		top: 10px;
+	}
+	.navbar .navbar-brand {
+		width: auto;
+	}
+	.navbar:after {
+		display: none;
+	}
+	#navbarResponsive {
+	    z-index: 99999;
+	    position: absolute;
+	    top: 80px;
+	    left: 0;
+	    width: 100%;
+	    text-align: center;
+	    background-color: #fff;
+	    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	}
+	.navbar .navbar-nav .nav-item {
+		border-bottom: 1px solid #eee;
+	}
+	.navbar .navbar-nav .nav-item:last-child {
+		border-bottom: none;
+	}
+	.navbar .navbar-nav a.nav-link {
+		padding: 15px 0px;
+		color: #1e1e1e!important;
+	}
+	.navbar .navbar-nav .nav-link:hover,
+	.navbar .navbar-nav .active>.nav-link,
+	.navbar .navbar-nav .nav-link.active,
+	.navbar .navbar-nav .nav-link.show,
+	.navbar .navbar-nav .show>.nav-link {
+		color: #a4c639!important;
+		border-bottom: none!important;
+	}
+	.callback-coffee-table-business-book .coffee-table-business-book-form {
+		padding: 50px 40px;
+	}
+	.callback-coffee-table-business-book .section-heading {
+		margin-bottom: 40px;
+	}
+}
+
 @media (max-width: 768px) {
 	.sub-header {
 		display: none;
@@ -1303,50 +1414,14 @@ footer .contact-form button.filled-button:hover {
 	.contact-item {
 		margin-bottom: 30px;
 	}
-}
-
-@media (max-width: 992px) {
-	.contact-information .contact-item a {
-		font-size: 12px;
+	.callback-coffee-table-business-book .coffee-table-business-book-image {
+		margin-bottom: 40px;
 	}
-	.navbar .navbar-brand {
-		position: absolute;
-		left: 30px;
-		top: 10px;
+	.callback-coffee-table-business-book .coffee-table-business-book-form {
+		padding: 40px 20px;
 	}
-	.navbar .navbar-brand {
-		width: auto;
-	}
-	.navbar:after {
-		display: none;
-	}
-	#navbarResponsive {
-	    z-index: 99999;
-	    position: absolute;
-	    top: 80px;
-	    left: 0;
-	    width: 100%;
-	    text-align: center;
-	    background-color: #fff;
-	    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-	}
-	.navbar .navbar-nav .nav-item {
-		border-bottom: 1px solid #eee;
-	}
-	.navbar .navbar-nav .nav-item:last-child {
-		border-bottom: none;
-	}
-	.navbar .navbar-nav a.nav-link {
-		padding: 15px 0px;
-		color: #1e1e1e!important;
-	}
-	.navbar .navbar-nav .nav-link:hover,
-	.navbar .navbar-nav .active>.nav-link,
-	.navbar .navbar-nav .nav-link.active,
-	.navbar .navbar-nav .nav-link.show,
-	.navbar .navbar-nav .show>.nav-link {
-		color: #a4c639!important;
-		border-bottom: none!important;
+	.coffee-table-business-book div.row div.mobile-center {
+		text-align: center;
 	}
 }
 
